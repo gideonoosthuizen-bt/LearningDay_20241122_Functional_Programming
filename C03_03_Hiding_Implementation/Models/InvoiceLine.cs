@@ -1,6 +1,4 @@
-﻿using C03_03_Hiding_Implementation.Functions;
-
-namespace C03_03_Hiding_Implementation.Models;
+﻿namespace C03_03_Hiding_Implementation.Models;
 
 public record InvoiceLine
 {

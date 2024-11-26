@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace C02_01_Until_Discriminated_Unions_Arrive
+﻿namespace C02_01_Until_Discriminated_Unions_Arrive
 {
     // This is called a "marker interface" as it only indicates the shared
     // behavior of the classes that implement it.

@@ -1,6 +1,6 @@
-﻿using C06_01_Functional_Control_Flow.Models;
+﻿using C08_02_Immutable_Collections.Models;
 
-namespace C06_01_Functional_Control_Flow.Functions;
+namespace C08_02_Immutable_Collections.Functions;
 
 public static class Arithmetic
 {

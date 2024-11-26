@@ -1,8 +1,9 @@
-﻿using C08_01_Immutable_Sequences.Functions;
-using C08_01_Immutable_Sequences.Markers;
-using C08_01_Immutable_Sequences.Models;
+﻿using System.Collections.Immutable;
+using C08_02_Immutable_Collections.Functions;
+using C08_02_Immutable_Collections.Markers;
+using C08_02_Immutable_Collections.Models;
 
-namespace C08_01_Immutable_Sequences.Control;
+namespace C08_02_Immutable_Collections.Control;
 
 class Program
 {
@@ -13,7 +14,7 @@ class Program
             new Cash(new Amount(20m, new Currency("USD"))),
             new GiftCard(new Amount(30m, new Currency("USD")), new DateOnly(2025, 12, 31)),
             new CreditCard(new Month(2025, 12))
-        })
+        }.ToImmutableList())
         .Add(new Cash(new Amount(35m, new Currency("ZAR"))))
         .With(new Currency("EUR"));;
 
